@@ -1,0 +1,65 @@
+body {
+	background: 
+	linear-gradient(90deg,  #F6F6F6 24px, 
+		transparent 1%) center, linear-gradient(#F6F6F6  24px, transparent 1%) center, #CACACA;
+	background-size: 27px 27px;
+}
+.top-offset {
+	margin-top: 200px !important;
+}
+.openshift-box{
+	-webkit-box-shadow: 0 0 5px 1px rgba(158, 158, 158, 0.75);
+	-moz-box-shadow: 0 0 5px 1px rgba(158, 158, 158, 0.75);
+	box-shadow: 0 0 5px 1px rgba(158, 158, 158, 0.75);
+}
+.openshift-header {
+	background-color: #C80000;
+	height: 60px;
+	-webkit-box-shadow: 0px 1px 15px 2px rgba(158, 158, 158,0.75);
+	-moz-box-shadow: 0px 1px 15px 2px rgba(158, 158, 158,0.75);
+	box-shadow: 0px 1px 15px 2px rgba(158, 158, 158,0.75);
+	z-index: 1; 
+}
+
+.logo {
+	position: relative;
+	top: 35%;
+	color: #FEFEFE;
+}
+
+.number-box {
+	background: #6F0000;
+    padding: 5px 10px;
+    position: relative;
+    top: 25%;
+    color: #FEFEFE;
+}
+.openshift-body {
+	background-color: #FEFEFE;
+	height: 160px; 
+}
+/**
+* Utility classes
+**/
+
+.no-pad-left {
+    padding-left: 0 !important;
+}
+.no-pad-right{
+	padding-right: 0 !important; 
+}
+.pad-left-1 {
+	padding-left: 1em !important;
+}
+.pad-right-1 {
+	padding-right: 1em !important;
+}
+
+@media (max-width: 767px) {
+    .logo {
+        left: 15px;
+    }
+    .number-box {
+    	right: 15px;
+    }
+}
